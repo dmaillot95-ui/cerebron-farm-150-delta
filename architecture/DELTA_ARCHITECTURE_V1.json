@@ -1,0 +1,54 @@
+{
+  "schema": "DELTA_ARCHITECTURE_V1",
+  "farm_id": 150,
+  "name": "DELTA",
+  "status": "SCAFFOLDED_NOT_TRAINED",
+  "domain": "native-science-modeling",
+  "role": "scientific-modeling-simulation-validation",
+  "mission": "Build scientific models, explicit assumptions and discriminating simulations while keeping simulation separate from physical validation.",
+  "shared_base_family": "ELYSION_ELYSIUM_SHARED_BASE",
+  "runtime_changed": false,
+  "layers": [
+    {
+      "id": "L0",
+      "name": "BASE_MODEL"
+    },
+    {
+      "id": "L1",
+      "name": "DELTA_CORE"
+    },
+    {
+      "id": "L2",
+      "name": "ADAPTERS"
+    },
+    {
+      "id": "L3",
+      "name": "MEMORY_INTERFACE"
+    },
+    {
+      "id": "L4",
+      "name": "PI_SEARCH_INTERFACE"
+    },
+    {
+      "id": "L5",
+      "name": "MODELS_SIMULATORS_TOOLS"
+    },
+    {
+      "id": "L6",
+      "name": "CEREBRON_ORCHESTRATION"
+    },
+    {
+      "id": "L7",
+      "name": "AFAH_REDTEAM"
+    }
+  ],
+  "rules": [
+    "REALITY>COHERENCE",
+    "EVIDENCE>CONFIDENCE",
+    "CLAIM<=EVIDENCE",
+    "SIMULATION!=TEST",
+    "CALCULATION!=MEASUREMENT",
+    "M6_NEVER_IN_TRAIN",
+    "RUNTIME_FREEZE"
+  ]
+}
