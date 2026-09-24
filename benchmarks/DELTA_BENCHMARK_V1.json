@@ -1,0 +1,31 @@
+{
+  "schema": "DELTA_BENCHMARK_V1",
+  "status": "FROZEN_TEMPLATE_NO_RESULTS",
+  "role": "scientific-modeling-simulation-validation",
+  "domains": [
+    "model_fidelity",
+    "assumption_control",
+    "dimensional_consistency",
+    "simulation_design",
+    "sensitivity",
+    "transfer"
+  ],
+  "m6_rule": "M6_NEVER_IN_TRAIN",
+  "modes": [
+    "BASE_MODEL_ALONE",
+    "DELTA_PRETRAIN_SCAFFOLD",
+    "DELTA_TRAINED",
+    "DELTA_PLUS_MINIMAL_COALITION"
+  ],
+  "metrics": [
+    "accuracy",
+    "critical_error_rate",
+    "calibration",
+    "transfer",
+    "regression",
+    "dimensional_consistency",
+    "model_validity",
+    "provenance_completeness"
+  ],
+  "result_status": "NO_EXECUTED_BASELINE_YET"
+}
