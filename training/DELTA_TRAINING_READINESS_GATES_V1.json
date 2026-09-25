@@ -44,13 +44,13 @@
       "id": "G4",
       "name": "BASELINE_RECORDED",
       "required": true,
-      "status": "PASS",
+      "status": "STOP_NO_COMPLEMENTARITY",
       "evidence": {
-        "run_id": 36142921827,
-        "audit_sha256": "49e879b04b01144f22229bacef8b4d7e96bbee9ded9261096a225c5cbfd8d27b",
-        "best_single_model": "Qwen/Qwen3-4B",
-        "best_single_accuracy": 0.6666666666666666,
-        "selection_decision": "NO_DUAL_CORE_PROMOTION_FROM_D3_ALONE"
+        "run_id": 36155099887,
+        "oracle_union_correct": 48,
+        "oracle_gain_over_best_single": 0,
+        "receipt_sha256": "83e1ff3fb7f0fc2ad8a16257d5528f5775cf37d8c4ded0c461ff69163a7f3dc3",
+        "decision": "STOP_DUAL_MODEL_NO_COMPLEMENTARITY"
       }
     },
     {
