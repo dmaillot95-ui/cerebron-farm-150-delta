@@ -6,7 +6,13 @@
       "id": "G0",
       "name": "BASE_REVISION_PINNED",
       "required": true,
-      "status": "PENDING"
+      "status": "PASS",
+      "evidence": {
+        "d2_run_id": 36139946295,
+        "d2_audit_sha256": "dbc0d7381b261d944712c3e0a4048203acf427d5a7b68bde4bf1e0fbf1264694",
+        "model_a": "Qwen/Qwen3-4B@1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_b": "HuggingFaceTB/SmolLM3-3B@a07cc9a04f16550a088caea529712d1d335b0ac1"
+      }
     },
     {
       "id": "G1",
